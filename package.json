@@ -1,27 +1,22 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
-  "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "name": "slash-activities",
+  "version": "1.0.0",
+  "description": "Voice Activities for Discord (with Slash Commands)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {
-    "express": "^4.17.1"
-  },
   "engines": {
     "node": "12.x"
   },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
+  "keywords": [],
+  "author": "shadeoxide",
   "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord-slash-commands": "https://github.com/ShadeDevelopment/discord-slash-commands",
+    "discord.js": "^12.5.2",
+    "node-fetch": "^2.6.1"
+  }
+  
 }

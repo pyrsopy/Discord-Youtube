@@ -175,4 +175,4 @@ client1.on("ready", () => {
     })
 })
 
-client1.login('TOKEN GİR')
+client1.login(process.env.TOKEN) //env dosyasına tokenini gir
